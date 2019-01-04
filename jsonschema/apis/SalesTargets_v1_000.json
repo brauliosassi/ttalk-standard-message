@@ -192,7 +192,7 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/schemas/SalesTargets_1_000.json#/definitions/SalesTargetsInfo"
+									"$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/validator-path-required-check/jsonschema/schemas/SalesTargets_1_000.json#/definitions/SalesTargetsInfo"
 								}
 							}
 						}

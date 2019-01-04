@@ -81,7 +81,7 @@
 							"note": "Este dado e formado pelos campos Filial, código da meta de venda",
 							"available": true,
 							"canUpdate": false,
-							"required": true
+							"required": false
 						}
 					]
 				},
