@@ -53,24 +53,24 @@
 		"PagedWarehouses": {
 			"type": "object",
 			"allOf": [{
-				"type": "object",
-				"properties": {
-					"items": {
-						"type": "array",
+					"$ref": "https://raw.githubusercontent.com/totvs/ttalk-standard-message/master/jsonschema/apis/types/totvsApiTypesBase.json#/definitions/Paging"
+				},
+				{
+					"type": "object",
+					"properties": {
 						"items": {
-							"$ref": "#/definitions/WarehousesInfo"
+							"type": "array",
+							"items": {
+								"$ref": "#/definitions/WarehousesInfo"
+							}
 						}
 					}
 				}
-			}]
+			]
 		},
 		"WarehousesInfo": {
 			"description": "Lista do Grupo de Produtos",
 			"properties": {
-				"hasNext": {
-					"type": "boolean",
-					"example": false
-				},
 				"CompanyId": {
 					"description": "Código da empresa",
 					"type": "string",

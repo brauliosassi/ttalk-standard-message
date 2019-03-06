@@ -50,7 +50,7 @@
 					"productInformation": [
 						{
 							"product": "PROTHEUS",
-							"availableasdfsdaf": true,
+							"available": true,
 							"note": "Este verbo esta disponivel com todos os parametros",
 							"minimalVersion": "12.1.21"
 						}
